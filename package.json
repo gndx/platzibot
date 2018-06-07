@@ -1,0 +1,24 @@
+{
+  "name": "platzi-bot",
+  "version": "1.0.0",
+  "description": "My first Facebook Messenger Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "messenger"
+  ],
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "engines": {
+    "node": "8.9.1"
+  }
+}
